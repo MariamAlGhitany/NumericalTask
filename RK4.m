@@ -8,7 +8,7 @@ y0 = 1;
 tspan = [0, 1]; % Adjust as needed
 
 % Step size for RK4
-h = 0.01; % Adjust as needed
+h = 0.02; % Adjust as needed
 
 % Classical 4th-order Runge-Kutta (RK4)
 [t_rk4, y_rk4] = rungeKutta4(f, tspan, y0, h);
